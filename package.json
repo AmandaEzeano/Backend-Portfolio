@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The runtime server for Amanda Ezeano portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Js",
+    "Html",
+    "css",
+    "Portfolio"
+  ],
+  "author": "Amanda Ezeano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nodemailer": "^6.9.8"
+  }
+}
